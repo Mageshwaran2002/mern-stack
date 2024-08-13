@@ -1,0 +1,86 @@
+* {
+            
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('/dope-sukuna-pink-3840x2160-16935.png');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f9f3f3;
+}
+
+
+header {
+    background-color: #af4c683d;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #af4c77;
+}
+
+
+a {
+    color: #af4c77;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.active {
+    color: #af4c77;
+
+}
+li {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.content {
+    display: flex;
+    flex-direction: row;    
+}
+.content div {
+    color: #af4c77;
+    width: 25%;
+    height: 25vh;    
+    border: 1px solid #fbf4f4;
+}
+.div2 {
+    text-align: center;
+    h2 {
+        color: #e6eceb;
+        margin-top: 50px;
+    }
+
+}
+.div1 {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}

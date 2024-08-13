@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">This is Sample Text</h1>
+    <input type="text" id="input_id" placeholder="Enter You Name" />
+    <button type="submit" id="bu1">change</button>
+    
+</body>
+<script>
+    //document.getElementById("bu1").addEventListener("click",changeText);
+    document.querySelector("#bu1").addEventListener("click",changeText);
+    function changeText(){
+        let val = document.getElementById("input_id").value;
+        console.log(val)
+        document.getElementById("heading").innerHTML = val;
+    }
+</script>
+</html>
